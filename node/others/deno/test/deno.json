@@ -1,0 +1,11 @@
+{
+   "imports": {
+      "std/": "https://deno.land/std@0.209.0/"
+   },
+   "test": {
+      "include": [
+	 "async.ts",
+	 "url_test.ts"
+      ]
+   }
+}

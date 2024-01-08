@@ -1,0 +1,9 @@
+**/node_modules/
+**/dist/
+**/.env
+**/.gitignore
+**/coverage
+**/*.log
+**/mongo/
+**/postgres/
+**/keys/
