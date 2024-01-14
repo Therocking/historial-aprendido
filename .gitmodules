@@ -1,0 +1,3 @@
+[submodule "subrepo_historial-aprendido"]
+	path = subrepo_historial-aprendido
+	url = https://github.com/Therocking/subrepo_historial-aprendido
