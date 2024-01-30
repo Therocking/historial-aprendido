@@ -1,0 +1,15 @@
+/home/therocking/practica-codigo/cSharp/bin/Debug/net8.0/cSharp
+/home/therocking/practica-codigo/cSharp/bin/Debug/net8.0/cSharp.deps.json
+/home/therocking/practica-codigo/cSharp/bin/Debug/net8.0/cSharp.runtimeconfig.json
+/home/therocking/practica-codigo/cSharp/bin/Debug/net8.0/cSharp.dll
+/home/therocking/practica-codigo/cSharp/bin/Debug/net8.0/cSharp.pdb
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.AssemblyInfoInputs.cache
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.AssemblyInfo.cs
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.csproj.CoreCompileInputs.cache
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.sourcelink.json
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.dll
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/refint/cSharp.dll
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.pdb
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/cSharp.genruntimeconfig.cache
+/home/therocking/practica-codigo/cSharp/obj/Debug/net8.0/ref/cSharp.dll
