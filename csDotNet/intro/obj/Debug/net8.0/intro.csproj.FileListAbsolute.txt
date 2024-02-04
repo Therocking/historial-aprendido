@@ -1,0 +1,14 @@
+/home/therocking/proyectos/intro/bin/Debug/net8.0/intro
+/home/therocking/proyectos/intro/bin/Debug/net8.0/intro.deps.json
+/home/therocking/proyectos/intro/bin/Debug/net8.0/intro.runtimeconfig.json
+/home/therocking/proyectos/intro/bin/Debug/net8.0/intro.dll
+/home/therocking/proyectos/intro/bin/Debug/net8.0/intro.pdb
+/home/therocking/proyectos/intro/obj/Debug/net8.0/intro.GeneratedMSBuildEditorConfig.editorconfig
+/home/therocking/proyectos/intro/obj/Debug/net8.0/intro.AssemblyInfoInputs.cache
+/home/therocking/proyectos/intro/obj/Debug/net8.0/intro.AssemblyInfo.cs
+/home/therocking/proyectos/intro/obj/Debug/net8.0/intro.csproj.CoreCompileInputs.cache
+/home/therocking/proyectos/intro/obj/Debug/net8.0/intro.dll
+/home/therocking/proyectos/intro/obj/Debug/net8.0/refint/intro.dll
+/home/therocking/proyectos/intro/obj/Debug/net8.0/intro.pdb
+/home/therocking/proyectos/intro/obj/Debug/net8.0/intro.genruntimeconfig.cache
+/home/therocking/proyectos/intro/obj/Debug/net8.0/ref/intro.dll
