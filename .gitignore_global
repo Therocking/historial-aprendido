@@ -7,3 +7,5 @@
 **/mongo/
 **/postgres/
 **/keys/
+**/docker/curso/postgres-pgadmin/postgres/
+**/docker/curso/postgres-pgadmin/pgadmin/

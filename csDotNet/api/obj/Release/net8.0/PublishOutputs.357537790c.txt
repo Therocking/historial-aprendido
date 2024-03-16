@@ -1,0 +1,12 @@
+/home/therockin/Practice/csDotNet/api/out/api
+/home/therockin/Practice/csDotNet/api/out/appsettings.Development.json
+/home/therockin/Practice/csDotNet/api/out/appsettings.json
+/home/therockin/Practice/csDotNet/api/out/api.dll
+/home/therockin/Practice/csDotNet/api/out/api.deps.json
+/home/therockin/Practice/csDotNet/api/out/api.runtimeconfig.json
+/home/therockin/Practice/csDotNet/api/out/api.pdb
+/home/therockin/Practice/csDotNet/api/out/Microsoft.AspNetCore.OpenApi.dll
+/home/therockin/Practice/csDotNet/api/out/Microsoft.OpenApi.dll
+/home/therockin/Practice/csDotNet/api/out/Swashbuckle.AspNetCore.Swagger.dll
+/home/therockin/Practice/csDotNet/api/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/therockin/Practice/csDotNet/api/out/Swashbuckle.AspNetCore.SwaggerUI.dll

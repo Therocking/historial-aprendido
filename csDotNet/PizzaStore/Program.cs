@@ -2,21 +2,21 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using PizzaStore.Models;
 
-readonly string MyAllowSpecificOrigins = "_MyAllowSpecificOrigins";
+// readonly string MyAllowSpecificOrigins = "_MyAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 // Coneccion a db
 var connectionString = builder.Configuration.GetConnectionString("Pizzas") ?? "Data Source=Pizzas.db";
 // Middlewares
 // CORS
-builder.Services.AddCors(options => 
-{
-  options.AddPolicy(name: MyAllowSpecificOrigins,
-      builder => 
-      {
-        builder.WithOrigins("*");
-      });
-});
+// builder.Services.AddCors(options => 
+// {
+//   options.AddPolicy(name: MyAllowSpecificOrigins,
+//       builder => 
+//       {
+//         builder.WithOrigins("*");
+//       });
+// });
 
 builder.Services.AddEndpointsApiExplorer();
 // Midd para la connection de la db en memoria
@@ -34,7 +34,7 @@ builder.Services.AddSwaggerGen(c =>
 
 // Application
 var app = builder.Build();
-app.UseCors(MyAllowSpecificOrigins);
+// app.UseCors(MyAllowSpecificOrigins);
 
 // Rutas
 app.UseSwagger();

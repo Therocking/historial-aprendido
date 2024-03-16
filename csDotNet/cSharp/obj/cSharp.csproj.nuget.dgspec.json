@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/therocking/practica-codigo/csDotNet/cSharp/cSharp.csproj": {}
+    "/home/therockin/Practice/csDotNet/cSharp/cSharp.csproj": {}
   },
   "projects": {
-    "/home/therocking/practica-codigo/csDotNet/cSharp/cSharp.csproj": {
+    "/home/therockin/Practice/csDotNet/cSharp/cSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/therocking/practica-codigo/csDotNet/cSharp/cSharp.csproj",
+        "projectUniqueName": "/home/therockin/Practice/csDotNet/cSharp/cSharp.csproj",
         "projectName": "cSharp",
-        "projectPath": "/home/therocking/practica-codigo/csDotNet/cSharp/cSharp.csproj",
-        "packagesPath": "/home/therocking/.nuget/packages/",
-        "outputPath": "/home/therocking/practica-codigo/csDotNet/cSharp/obj/",
+        "projectPath": "/home/therockin/Practice/csDotNet/cSharp/cSharp.csproj",
+        "packagesPath": "/home/therockin/.nuget/packages/",
+        "outputPath": "/home/therockin/Practice/csDotNet/cSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/therocking/.nuget/NuGet/NuGet.Config"
+          "/home/therockin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/therockin/.dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
