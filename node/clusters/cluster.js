@@ -9,7 +9,7 @@ if (cluster.isMaster) {
 
   for (let i = 0; i < numCPUs; i++) {
     cluster.fork();
-liases  }
+  }
 
   // Escucha eventos de terminación de los trabajadores y crea nuevos trabajadores en caso de falla.
   cluster.on('exit', (worker, code, signal) => {

@@ -32,3 +32,8 @@
 /home/therockin/Practice/csDotNet/api/obj/Debug/net8.0/api.pdb
 /home/therockin/Practice/csDotNet/api/obj/Debug/net8.0/api.genruntimeconfig.cache
 /home/therockin/Practice/csDotNet/api/obj/Debug/net8.0/ref/api.dll
+/home/therockin/Practice/csDotNet/api/bin/Debug/net8.0/out/web.config
+/home/therockin/Practice/csDotNet/api/bin/Debug/net8.0/out/api.deps.json
+/home/therockin/Practice/csDotNet/api/bin/Debug/net8.0/out/api.runtimeconfig.json
+/home/therockin/Practice/csDotNet/api/bin/Debug/net8.0/out/appsettings.Development.json
+/home/therockin/Practice/csDotNet/api/bin/Debug/net8.0/out/appsettings.json

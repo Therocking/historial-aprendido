@@ -1,0 +1,29 @@
+<hr>
+
+<h1>{{heroName}}</h1>
+
+<dl>
+  <td>Nombre: </td>
+  <dd>{{name}}</dd>
+
+  <td>Edad:</td>
+  <dd>{{age}}</dd>
+
+  <td>Algún método</td>
+  <dd>{{getHeroeDescription()}}</dd>
+
+  <td>Capitalizado</td>
+  <dd>{{capitalizaName}}</dd>
+</dl>
+
+<button
+  *ngIf="changeHeroClick <= 10"
+  (click)="changeHero()" class="btn btn-primary">
+  Cambiar heroe
+</button>
+
+<p
+  *ngIf="changeHeroClick > 10"
+>
+  You have change the hero 10 times.
+</p>

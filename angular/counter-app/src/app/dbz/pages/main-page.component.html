@@ -1,0 +1,19 @@
+<h1>DBZ Personajes</h1>
+<hr>
+
+<!-- The component dbz-list is a highter order component and can recieve args,
+    only can recieve args in the property characterList with the type ICharacter.
+-->
+<div class="row mb-4">
+    <div class="col">
+        <h4>Listado</h4>
+        <dbz-list (onDeleteCharacter)="onDeleteCharacter($event)" [characterList]="characters"></dbz-list>
+    </div>
+</div>
+<!-- The events emitted are listing like other event  and the '$event' arg is the parameter emitted -->
+
+<div class="col">
+    <h4>Agregar personaje</h4>
+
+    <dbz-form (onNewCharacter)="onNewCharacter($event)"></dbz-form>
+</div>

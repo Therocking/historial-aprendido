@@ -65,3 +65,16 @@ docker container run \
 --network world-app \ <!-- enlaza el contenedor a una red -->
 phpmyadmin:5.2.0-apache
 ```
+
+```docker 
+ <!-- Ejecutar una db sql server y utilizarla en un proyecto de c# -->
+
+docker run \
+-e "ACCEPT_EULA=Y" \
+-e "MSSQL_SA_PASSWORD=password" \
+-e "MSSQL_PID=Evaluation" \
+-dp 1433:1433 \
+--name sqlserver1 \
+--hostname sqlserver1 \
+mcr.microsoft.com/mssql/server:2022-CU10-ubuntu-22.04
+```

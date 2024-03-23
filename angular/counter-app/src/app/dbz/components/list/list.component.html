@@ -1,0 +1,41 @@
+<!-- 
+    [ngClase] is used to conditionally assign a clase. You can use any HTML attribute in [] and
+    then use js expression.
+-->
+
+<ul class="list-group">
+    <!-- 
+        In the ngFor exist some values that can help to evalute the values into the loop(all of them are a booleans):
+        - first - verify if the current element is the first element. 
+        - last - the reverse of first.
+        - odd - to verify if the current element is odd.
+        - even - the reverse of odd.
+
+        The values you can assign it like a variable or using the word "as".
+    -->
+    <li 
+        *ngFor="
+        let character of characterList; 
+        index as i;
+        let isFirst = first;
+        let isLast = last;
+        let isEven = even;
+        let isOdd = odd
+        " 
+        class="list-group-item d-flex justify-content-between align-items-center"
+        [ngClass]="{
+            'list-group-item-success': isFirst,
+            'list-group-item-dark': isLast,
+            'list-group-item-danger': isOdd,
+        }"
+    >
+    <div>
+     <span class="text-primary">{{character.id}}. </span>
+     <span>{{character.name}} - </span>
+     <strong>Power: </strong>
+     <span>{{character.power}}</span>
+    </div>
+
+     <button (click)="removeCharacter(character.id)" class="btn btn-danger">X</button>
+    </li>
+</ul>
