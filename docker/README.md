@@ -74,7 +74,20 @@ docker run \
 -e "MSSQL_SA_PASSWORD=password" \
 -e "MSSQL_PID=Evaluation" \
 -dp 1433:1433 \
---name sqlserver1 \
 --hostname sqlserver1 \
+--name sqlserver1 \
 mcr.microsoft.com/mssql/server:2022-CU10-ubuntu-22.04
 ```
+
+## Ejecutar el dockerfile desde otro contexto
+``` docker
+docker build -t {tag de la imagen} -f {directorio}/{dockerfile} .
+```
+
+## imagenes
+- mariadb:jammy
+- postgres:16.2-alpine3.19
+- mongo:6.0.6
+- phpmyadmin:5.2.0-apache
+- docker/getting-started:latest
+- dpage/pgadmin4:6.17
