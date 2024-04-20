@@ -30,3 +30,11 @@ El valor no será: ```21```, sino un valor con esta estructura: ```0xc000094000`
 fmt.Println(s) //este dará un error, porque no se puede acceder de esa forma a un puntero
 fmt.Println(*s) // se le tiene que poner el "*"
 ```
+
+## To learn
+- Struct
+- Interface
+- Encapsulation
+- Polimophysm
+- Composition
+- Comparable

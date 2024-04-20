@@ -91,3 +91,6 @@ docker build -t {tag de la imagen} -f {directorio}/{dockerfile} .
 - phpmyadmin:5.2.0-apache
 - docker/getting-started:latest
 - dpage/pgadmin4:6.17
+
+## Buildx
+Crear imagenes para diferentes plataformas(ej: amd64).
