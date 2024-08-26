@@ -76,6 +76,7 @@ docker run \
 -dp 1433:1433 \
 --hostname sqlserver1 \
 --name sqlserver1 \
+-v ruta/del/host:/var/opt/mssql/data \
 mcr.microsoft.com/mssql/server:2022-CU10-ubuntu-22.04
 ```
 
