@@ -1,6 +1,0 @@
-{
-   "tasks": {
-      "dev:ll": "deno run --watch linked_list.ts",
-      "dev:arr": "deno run --watch array.ts"
-   }
-}
